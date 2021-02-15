@@ -1,0 +1,1 @@
+mri_convert /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/mri/rawavg.mgz /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/mri/orig.mgz --conform

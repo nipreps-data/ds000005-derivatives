@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Tue Feb  7 21:19:15 UTC 2017
+setenv SUBJECTS_DIR /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction
+cd /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/scripts
+/opt/freesurfer/bin/pctsurfcon
+$Id: pctsurfcon,v 1.15 2016/02/12 21:43:15 zkaufman Exp $
+Linux f8816bec117a 4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /opt/freesurfer
+Cleaning up

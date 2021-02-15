@@ -1,0 +1,1 @@
+mris_sphere -rusage /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/touch/rusage.mris_sphere.rh.dat -seed 1234 ../surf/rh.inflated ../surf/rh.sphere

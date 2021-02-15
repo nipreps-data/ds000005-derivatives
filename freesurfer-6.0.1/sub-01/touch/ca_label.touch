@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/mri/transforms/cc_up.lta sub-01

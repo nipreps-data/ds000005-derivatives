@@ -1,0 +1,1 @@
+mris_inflate -rusage /scratch/workflow_enumerator/sub-01/t1w_preprocessing/Reconstruction/sub-01/touch/rusage.mris_inflate.lh.dat ../surf/lh.smoothwm ../surf/lh.inflated
