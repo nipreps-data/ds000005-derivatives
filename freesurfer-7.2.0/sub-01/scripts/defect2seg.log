@@ -1,0 +1,39 @@
+Log file for defect2seg
+Wed Sep 22 17:15:10 AST 2021
+
+setenv SUBJECTS_DIR /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0
+cd /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/scripts
+/usr/local/freesurfer/7.2.0/bin/defect2seg --s sub-01
+
+freesurfer-linux-ubuntu18_x86_64-7.2.0-20210721-aa8f76b
+defect2seg 7.2.0
+Linux turing 5.4.0-81-generic #91~18.04.1-Ubuntu SMP Fri Jul 23 13:36:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+pid 4720
+mri_label2vol --defects /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.orig.nofix /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.defect_labels /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/orig.mgz 1000 0 /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/surface.defects.mgz
+mris_defects_pointset -s /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.orig.nofix -d /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.defect_labels -o /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.defects.pointset
+Reading in surface /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.orig.nofix
+Reading in defect segmentation /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/lh.defect_labels
+#VMPC# mris_defects_pointset 531396
+mris_defects_pointset done
+mri_label2vol --defects /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.orig.nofix /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.defect_labels /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/surface.defects.mgz 2000 1 /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Converting defects to volume: offset=2000, merge=1
+MRIcopyHeader(): source has ctab
+Writing to /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri/surface.defects.mgz
+mris_defects_pointset -s /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.orig.nofix -d /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.defect_labels -o /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.defects.pointset
+Reading in surface /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.orig.nofix
+Reading in defect segmentation /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/surf/rh.defect_labels
+#VMPC# mris_defects_pointset 529660
+mris_defects_pointset done
+ 
+Started at Wed Sep 22 17:15:10 AST 2021 
+Ended   at Wed Sep 22 17:15:14 AST 2021
+Defect2seg-Run-Time-Sec 4
+Defect2seg-Run-Time-Min 0.08
+Defect2seg-Run-Time-Hours 0.00
+ 
+defect2seg Done

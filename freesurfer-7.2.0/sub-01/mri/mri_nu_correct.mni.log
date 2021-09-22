@@ -1,0 +1,104 @@
+/data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri
+/usr/local/freesurfer/7.2.0/bin/mri_nu_correct.mni
+--i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4
+nIters 2
+mri_nu_correct.mni 7.2.0
+Linux turing 5.4.0-81-generic #91~18.04.1-Ubuntu SMP Fri Jul 23 13:36:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Wed Sep 22 15:12:46 AST 2021
+tmpdir is ./tmp.mri_nu_correct.mni.26330
+cd /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.26330/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_binarize --i ./tmp.mri_nu_correct.mni.26330/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.26330/ones.mgz
+
+7.2.0
+cwd /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/mri
+cmdline mri_binarize --i ./tmp.mri_nu_correct.mni.26330/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.26330/ones.mgz 
+sysname  Linux
+hostname turing
+machine  x86_64
+user     cjmarkie
+
+input      ./tmp.mri_nu_correct.mni.26330/nu0.mgz
+frame      0
+nErode3d   0
+nErode2d   0
+output     ./tmp.mri_nu_correct.mni.26330/ones.mgz
+Binarizing based on threshold
+min        -1
+max        +infinity
+binval        1
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Starting parallel 1
+Found 16777216 values in range
+Counting number of voxels in first frame
+Found 16777215 voxels in final mask
+Writing output to ./tmp.mri_nu_correct.mni.26330/ones.mgz
+Count: 16777215 16777215.000000 16777216 99.999994
+mri_binarize done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.26330/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.26330/sum.junk --avgwf ./tmp.mri_nu_correct.mni.26330/input.mean.dat
+
+7.2.0
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.26330/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.26330/sum.junk --avgwf ./tmp.mri_nu_correct.mni.26330/input.mean.dat 
+sysname  Linux
+hostname turing
+machine  x86_64
+user     cjmarkie
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.26330/ones.mgz
+Loading orig.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+  0
+Writing to ./tmp.mri_nu_correct.mni.26330/input.mean.dat
+mri_segstats done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.26330/ones.mgz --i ./tmp.mri_nu_correct.mni.26330/nu0.mgz --sum ./tmp.mri_nu_correct.mni.26330/sum.junk --avgwf ./tmp.mri_nu_correct.mni.26330/output.mean.dat
+
+7.2.0
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.26330/ones.mgz --i ./tmp.mri_nu_correct.mni.26330/nu0.mgz --sum ./tmp.mri_nu_correct.mni.26330/sum.junk --avgwf ./tmp.mri_nu_correct.mni.26330/output.mean.dat 
+sysname  Linux
+hostname turing
+machine  x86_64
+user     cjmarkie
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.26330/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.26330/nu0.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+  0
+Writing to ./tmp.mri_nu_correct.mni.26330/output.mean.dat
+mri_segstats done
+mris_calc -o ./tmp.mri_nu_correct.mni.26330/nu0.mgz ./tmp.mri_nu_correct.mni.26330/nu0.mgz mul 1.44399419230663644876
+mri_convert ./tmp.mri_nu_correct.mni.26330/nu0.mgz nu.mgz --like orig.mgz
+mri_convert ./tmp.mri_nu_correct.mni.26330/nu0.mgz nu.mgz --like orig.mgz 
+reading from ./tmp.mri_nu_correct.mni.26330/nu0.mgz...
+TR=2300.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to nu.mgz...
+mri_make_uchar nu.mgz transforms/talairach.xfm nu.mgz
+type change took 0 minutes and 5 seconds.
+mapping (10, 146) to ( 3, 110)
+ 
+ 
+Wed Sep 22 15:16:17 AST 2021
+mri_nu_correct.mni done

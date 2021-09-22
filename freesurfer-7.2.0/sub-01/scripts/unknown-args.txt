@@ -1,0 +1,8 @@
+-sd
+derivatives/freesurfer-7.2.0
+-i
+sub-01/anat/sub-01_T1w.nii.gz
+-s
+sub-01
+-all
+-parallel

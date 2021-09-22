@@ -1,0 +1,81 @@
+status file for recon-all
+Wed Sep 22 15:09:05 AST 2021
+#@# MotionCor Wed Sep 22 15:09:05 AST 2021
+#@# Talairach Wed Sep 22 15:09:11 AST 2021
+#@# Talairach Failure Detection Wed Sep 22 15:12:46 AST 2021
+#@# Nu Intensity Correction Wed Sep 22 15:12:46 AST 2021
+#@# Intensity Normalization Wed Sep 22 15:16:17 AST 2021
+#@# Skull Stripping Wed Sep 22 15:17:31 AST 2021
+#@# EM Registration Wed Sep 22 15:21:25 AST 2021
+#@# CA Normalize Wed Sep 22 15:24:11 AST 2021
+#@# CA Reg Wed Sep 22 15:25:18 AST 2021
+#@# SubCort Seg Wed Sep 22 16:32:07 AST 2021
+#@# CC Seg Wed Sep 22 17:02:12 AST 2021
+#@# Merge ASeg Wed Sep 22 17:03:02 AST 2021
+#@# Intensity Normalization2 Wed Sep 22 17:03:02 AST 2021
+#@# Mask BFS Wed Sep 22 17:05:07 AST 2021
+#@# WM Segmentation Wed Sep 22 17:05:08 AST 2021
+#@# Fill Wed Sep 22 17:07:25 AST 2021
+#@# Tessellate lh Wed Sep 22 17:08:40 AST 2021
+#@# Tessellate rh Wed Sep 22 17:08:43 AST 2021
+#@# Smooth1 lh Wed Sep 22 17:08:46 AST 2021
+#@# Smooth1 rh Wed Sep 22 17:08:46 AST 2021
+#@# Inflation1 lh Wed Sep 22 17:08:48 AST 2021
+#@# Inflation1 rh Wed Sep 22 17:08:48 AST 2021
+#@# QSphere lh Wed Sep 22 17:08:58 AST 2021
+#@# QSphere rh Wed Sep 22 17:08:58 AST 2021
+#@# Fix Topology lh Wed Sep 22 17:10:04 AST 2021
+#@# Fix Topology rh Wed Sep 22 17:10:04 AST 2021
+#@# Smooth2 lh Wed Sep 22 17:19:35 AST 2021
+#@# Smooth2 rh Wed Sep 22 17:19:35 AST 2021
+#@# Inflation2 lh Wed Sep 22 17:19:37 AST 2021
+#@# Inflation2 rh Wed Sep 22 17:19:37 AST 2021
+#@# Curv .H and .K lh Wed Sep 22 17:19:49 AST 2021
+#@# Curv .H and .K rh Wed Sep 22 17:19:49 AST 2021
+#@# Sphere lh Wed Sep 22 17:20:23 AST 2021
+#@# Sphere rh Wed Sep 22 17:20:23 AST 2021
+#@# Surf Reg lh Wed Sep 22 17:28:25 AST 2021
+#@# Surf Reg rh Wed Sep 22 17:28:25 AST 2021
+#@# Jacobian white lh Wed Sep 22 17:32:22 AST 2021
+#@# Jacobian white rh Wed Sep 22 17:32:22 AST 2021
+#@# AvgCurv lh Wed Sep 22 17:32:23 AST 2021
+#@# AvgCurv rh Wed Sep 22 17:32:23 AST 2021
+#@# Cortical Parc lh Wed Sep 22 17:32:23 AST 2021
+#@# Cortical Parc rh Wed Sep 22 17:32:23 AST 2021
+#@# white curv lh Wed Sep 22 17:38:22 AST 2021
+#@# white area lh Wed Sep 22 17:38:24 AST 2021
+#@# pial curv lh Wed Sep 22 17:38:24 AST 2021
+#@# pial area lh Wed Sep 22 17:38:25 AST 2021
+#@# thickness lh Wed Sep 22 17:38:26 AST 2021
+#@# area and vertex vol lh Wed Sep 22 17:38:48 AST 2021
+#@# white curv rh Wed Sep 22 17:38:49 AST 2021
+#@# white area rh Wed Sep 22 17:38:51 AST 2021
+#@# pial curv rh Wed Sep 22 17:38:51 AST 2021
+#@# pial area rh Wed Sep 22 17:38:52 AST 2021
+#@# thickness rh Wed Sep 22 17:38:53 AST 2021
+#@# area and vertex vol rh Wed Sep 22 17:39:15 AST 2021
+#@# Curvature Stats lh Wed Sep 22 17:39:16 AST 2021
+#@# Curvature Stats rh Wed Sep 22 17:39:18 AST 2021
+#@# Cortical ribbon mask Wed Sep 22 17:39:19 AST 2021
+#@# Cortical Parc 2 lh Wed Sep 22 17:41:41 AST 2021
+#@# Cortical Parc 2 rh Wed Sep 22 17:41:41 AST 2021
+#@# Cortical Parc 3 lh Wed Sep 22 17:41:52 AST 2021
+#@# Cortical Parc 3 rh Wed Sep 22 17:41:52 AST 2021
+#@# WM/GM Contrast lh Wed Sep 22 17:42:00 AST 2021
+#@# WM/GM Contrast rh Wed Sep 22 17:42:00 AST 2021
+#@# Relabel Hypointensities Wed Sep 22 17:42:02 AST 2021
+#@# APas-to-ASeg Wed Sep 22 17:42:15 AST 2021
+#@# AParc-to-ASeg aparc Wed Sep 22 17:42:22 AST 2021
+#@# AParc-to-ASeg aparc.a2009s Wed Sep 22 17:43:02 AST 2021
+#@# AParc-to-ASeg aparc.DKTatlas Wed Sep 22 17:43:43 AST 2021
+#@# WMParc Wed Sep 22 17:44:24 AST 2021
+#@# Parcellation Stats lh Wed Sep 22 17:47:04 AST 2021
+#@# Parcellation Stats rh Wed Sep 22 17:47:04 AST 2021
+#@# Parcellation Stats 2 lh Wed Sep 22 17:47:20 AST 2021
+#@# Parcellation Stats 2 rh Wed Sep 22 17:47:20 AST 2021
+#@# Parcellation Stats 3 lh Wed Sep 22 17:47:28 AST 2021
+#@# Parcellation Stats 3 rh Wed Sep 22 17:47:28 AST 2021
+#@# ASeg Stats Wed Sep 22 17:47:35 AST 2021
+#@# BA_exvivo Labels lh Wed Sep 22 17:48:20 AST 2021
+#@# BA_exvivo Labels rh Wed Sep 22 17:49:24 AST 2021
+recon-all -s sub-01 finished without error at Wed Sep 22 17:50:29 AST 2021

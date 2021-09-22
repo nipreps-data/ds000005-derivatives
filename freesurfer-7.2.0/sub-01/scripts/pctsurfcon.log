@@ -1,0 +1,16 @@
+Logfile for pctsurfcon
+setenv SUBJECTS_DIR /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0
+Wed Sep 22 17:42:00 AST 2021
+cd /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/scripts
+setenv SUBJECTS_DIR /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0
+/usr/local/freesurfer/7.2.0/bin/pctsurfcon
+cd /data/bids/nipreps-data/ds000005/derivatives/freesurfer-7.2.0/sub-01/scripts
+pctsurfcon 7.2.0
+/usr/local/freesurfer/7.2.0/bin/pctsurfcon
+Linux turing 5.4.0-81-generic #91~18.04.1-Ubuntu SMP Fri Jul 23 13:36:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+pctsurfcon 7.2.0
+FREESURFER_HOME /usr/local/freesurfer/7.2.0
+Linux turing 5.4.0-81-generic #91~18.04.1-Ubuntu SMP Fri Jul 23 13:36:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /usr/local/freesurfer/7.2.0
+Cleaning up
+Cleaning up

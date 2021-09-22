@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-01
+START_TIME Wed Sep 22 15:09:04 AST 2021
+END_TIME Wed Sep 22 17:50:29 AST 2021
+RUNTIME_HOURS 2.690
+USER cjmarkie
+HOST turing
+PROCESSOR x86_64
+OS Linux
+UNAME Linux turing 5.4.0-81-generic #91~18.04.1-Ubuntu SMP Fri Jul 23 13:36:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.2.0 (freesurfer-linux-ubuntu18_x86_64-7.2.0-20210721-aa8f76b)
+CMDPATH /usr/local/freesurfer/7.2.0/bin/recon-all
+CMDARGS -sd derivatives/freesurfer-7.2.0 -i sub-01/anat/sub-01_T1w.nii.gz -s sub-01 -all -parallel
